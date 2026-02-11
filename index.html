@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>Cartas de Amor - San Valentín</title> <link rel="stylesheet" href="style.css" /> 
+    <script src="amalia-modal.js"></script> 
+    <script src="login.js"></script> 
+    <script src="eyes.js" defer></script>
+   
+</head> 
+<body>
+    
+  <!-- LOGIN -->
+  <div id="login-wrapper" class="login-wrapper">
+    <div class="login-card">
+      <h1>Para ti:</h1>
+      <h2>Rosemilia García P.</h2>
+      <p class="subtitle">Solo tú puedes entrar, Feliz día de San Valentín</p>
+
+    
+<div class="password-container">
+  <input id="clave" type="password" placeholder="Clave secreta"...>
+  <span id="togglePassword" class="eye">👁️</span>
+</div>
+
+      <button id="entrarBtn">Entrar</button>
+
+      <a class="amalia-link" href="#" id="amaliaLink">¿Eres Amalia?</a>
+    </div>
+  </div>
+
+  <!-- BOTÓN ROMPER (FUERA DEL LOGIN) -->
+  <button id="fleeingButton">Dejar a Trina 💔</button>
+
+  <!-- MODAL AMALIA -->
+  <div id="amaliaModal" class="modal hidden">
+    <div class="modal-card">
+      <p>
+        Amalia 🤍<br><br>
+        Gracias por cuidar a la persona más que mas amo.<br>
+        We love you.
+      </p>
+      <button id="closeAmalia">Cerrar</button>
+    </div>
+  </div>
+<!-- logout -->
+
+    <button id="logoutBtn" class="logout-btn hidden">Cerrar sesión</button>
+
+  <!-- CARTAS -->
+  <div id="cards-wrapper" class="cards-wrapper hidden">
+
+    <!-- SPOTIFY-->
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7DxwotLgkVN9zOcZ58JFfw?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!--end-->
+    <div id="cardsGrid" class="cards-grid"></div>
+  </div>
+  
+
+  <script src="breakup.js"></script>
+  <script src="logout.js"></script>
+
+</body>
+
+</html>
